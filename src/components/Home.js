@@ -1,8 +1,17 @@
+import './css/Home.css'
+
+import Venice from "./images/venice-home.jpeg"
+
 function Home() {
     return (
-      <div>
-        example4
-      </div>
+        <div id="image-container">
+            <img src={Venice} alt="spongebob house" />
+            <div id="Home-Intro">
+                <p>
+                    uieuhihiuhfi<br/>ewufhowefhoweu<br/>efewkfjnwkejfnkwejnf
+                    </p>
+            </div>
+        </div>
     );
   }
   

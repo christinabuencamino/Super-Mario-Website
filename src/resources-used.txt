@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/39195687/setting-a-backgroundimage-with-react-inline-styles
+
+https://stackoverflow.com/questions/15449280/making-text-background-transparent-but-not-text-itself

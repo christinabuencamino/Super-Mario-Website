@@ -25,27 +25,22 @@ export default function App() {
 function NavBar() {
   return (
     <div>
-    <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/hotels">Hotels</Link>
-          </li>
-          <li>
-            <Link to="/sites">Sites</Link>
-          </li>
-          <li>
-            <Link to="/gifts">Gifts</Link>
-          </li>
-        </ul>
-      </nav>
-      <hr />
-
-      {/* An <Outlet> renders whatever child route is currently active,
-          so you can think about this <Outlet> as a placeholder for
-          the child routes we defined above. */}
+      <nav class="NavBar">
+          <ul class="NavBar-ul">
+            <li class="NavBar-li">
+              <Link to="/">Home</Link>
+            </li>
+            <li class="NavBar-li">
+              <Link to="/hotels">Hotels</Link>
+            </li>
+            <li class="NavBar-li">
+              <Link to="/sites">Sites</Link>
+            </li>
+            <li class="NavBar-li">
+              <Link to="/gifts">Gifts</Link>
+            </li>
+          </ul>
+        </nav>
       <Outlet />
       </div>
   );
