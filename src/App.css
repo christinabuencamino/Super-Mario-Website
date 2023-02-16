@@ -29,16 +29,17 @@ a:visited {
 }
 
 a:active {
-  color: goldenrod;
+  color: white;
 }
 
 a:hover {
-  color:goldenrod;
+  color:white;
 }
 
 .NavBar {
-  background-color: peachpuff;
+  background-color: rgb(139, 196, 210);
   margin-bottom: 20px;
+  font-size:large;
 }
 
 .NavBar-ul {
