@@ -29,17 +29,20 @@ a:visited {
 }
 
 a:active {
-  color: white;
+  color: gray;
 }
 
 a:hover {
-  color:white;
+  color:gray;
 }
 
 .NavBar {
-  background-color: rgb(139, 196, 210);
   margin-bottom: 20px;
-  font-size:large;
+  margin-top: 20px;
+  font-size:x-large;
+  font-family: 'Times New Roman', Times, serif;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
 .NavBar-ul {

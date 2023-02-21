@@ -1,7 +1,9 @@
 import './css/Home.css'
 
-import Venice from "./images/venice_gondola.jpeg"
-import MoreVenice from "./images/more-venice.jpeg"
+import Venice from "./images/Venice_Home.png"
+import VeniceHotels from "./images/Venice-Hotels.png"
+import VeniceGifts from "./images/Venice-Gifts.png"
+import VeniceSites from "./images/Venice-Sites.png"
 
 function Home() {
     return (
@@ -10,26 +12,20 @@ function Home() {
                 <img src={Venice} alt="Venice Canal Picture" id="Home-image"/>
                 <div id="Home-Intro">
                     <p id="title">
-                        Plan Your Trip To Venice!
-                    </p>
-                    <p>
-                        Use this website to find hotels, attractions, and suitable gifts for loved ones.
+                        VENICE
                     </p>
                 </div>
             </div>
-            <br></br><br></br><br></br>
-            <div id="image-container">
-                <img src={MoreVenice} alt="Venice Canal Picture" id="Home-image"/>
-                <div id="Home-Intro">
-                    <p id="title">
-                        Why Venice?
-                    </p>
-                    <p>
-                        Venice blah blah blah
-                    </p>
-                </div>
+            <div style={{display: "inline-flex", width: "100%", marginTop: "50px", marginBottom: "50px"}}>
+                <hr style={{width: "100%", backgroundColor: "black", height: "1px", alignSelf: 'center'}} />
+                <span style={{width: "100%", fontSize: "3vh", fontFamily: "auto"}}>Use my website to plan an amazing trip! <br/>See tabs for options.</span>
+                <hr style={{width: "100%", backgroundColor: "black", height: "1px", alignSelf: 'center'}} />
             </div>
-            <br></br><br></br><br></br>
+            <div style={{display: "flex", flexDirection: "row", justifyContent: "center"}}>
+                <img src={VeniceHotels} alt="Venice Hotel Picture" className="Tab-image" />
+                <img src={VeniceGifts} alt="Venice Gifts Picture" className="Tab-image" />
+                <img src={VeniceSites} alt="Venice Sites Picture" className="Tab-image" />
+            </div>
         </div>
     );
   }
