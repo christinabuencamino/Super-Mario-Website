@@ -13,8 +13,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<NavBar />}>
           <Route index element={<Home />} />
-          <Route path="sites" element={<Sites />} />
           <Route path="gifts" element={<Gifts />} />
+          <Route path="sites" element={<Sites />} />
           <Route path="hotels" element={<Hotels />} />
           </Route>
       </Routes>
@@ -34,10 +34,10 @@ function NavBar() {
               <Link to="/hotels">Hotels</Link>
             </li>
             <li class="NavBar-li">
-              <Link to="/sites">Sites</Link>
+              <Link to="/gifts">Gifts</Link>
             </li>
             <li class="NavBar-li">
-              <Link to="/gifts">Gifts</Link>
+              <Link to="/sites">Sites</Link>
             </li>
           </ul>
         </nav>
