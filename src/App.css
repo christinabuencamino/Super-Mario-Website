@@ -1,57 +1,69 @@
 .App {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+    margin: 0;
+}
+
+header {
+  grid-area: header;
+    background-color: lightblue;
+}
+
+main {
+  grid-area: main;
+  text-align: center;
+  overflow: auto;
+}
+
+footer {
+  grid-area: footer;
+  background-color: lightblue;
   text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+body {
+  margin: 0; /* prevents scrollbars */
+}
+
+ul {
+  list-style-type: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  padding: 15px;
+  font-size: 4vh;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.App-link {
-  color: black;
+@font-face {
+  font-family: 'Mario';
+  src: url('./fonts/MARIO_Font_v3_Solid.otf');
+}
+
+.navBar {
+  font-family: 'Mario';
   text-decoration: none;
-}
-
-a:link {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a:visited {
   color: black;
 }
 
-a:active {
-  color: gray;
+.navBar:visited {
+  color: black;
 }
 
-a:hover {
-  color:gray;
+.navBar:hover {
+  color: grey;
 }
 
-.NavBar {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-size:x-large;
-  font-family: 'Times New Roman', Times, serif;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-}
-
-.NavBar-ul {
-  display: inline-flex;
-}
-
-.NavBar-li {
-  display: flex;
-  margin-left: 100px;
-  margin-right: 100px;
+#navBar-logo {
+  height: 6em;
+  margin-top: -40%;
 }
 
