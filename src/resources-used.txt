@@ -1,5 +1,13 @@
-https://stackoverflow.com/questions/39195687/setting-a-backgroundimage-with-react-inline-styles
-
-https://stackoverflow.com/questions/15449280/making-text-background-transparent-but-not-text-itself
-
-https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle
+super mario
+locations:
+    princess peach castle
+    bowser castle
+    yoshi's island
+food:
+    mushroom
+    fire flower
+    cape feather
+experiences:
+    ride a yoshi
+    mario kart
+    soar through space

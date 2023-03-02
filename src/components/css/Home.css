@@ -1,55 +1,10 @@
-.image-container {
-    position: relative;
+#home {
+    grid-area: 'main';
 }
 
-#Home-Intro {
-    position: absolute;
-    top: 100px;
-    left: 150px; 
-    right: 150px;
-    bottom: 100px;
-    padding: 5px;
-    justify-content: center;
-    font-size: 30px;
-    display: flex;
-  flex-direction: column;
-  border-radius: 10px;
+#pipe {
+    height: 45vh;
+    grid-area: 'footer';
+    margin-bottom: -0.5%;
 }
-
-#Home-image {
-    width: 70%;
-    margin-top: 10px;
-}
-
-#title {
-    font-size: 16vh;
-    font-family: Serif;
-    color: white;
-}
-
-.Tab-text {
-    position: absolute;
-    top: 100px;
-    bottom: 100px;
-    padding: 5px;
-    justify-content: center;
-    font-size: 6vh;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-.Tab-image {
-    width: 40vh;
-    margin-left: 5vh;
-    margin-right: 5vh;
-}
-
-
-
-
-
 
