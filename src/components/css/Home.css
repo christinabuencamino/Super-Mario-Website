@@ -1,7 +1,6 @@
 #home {
     grid-area: 'main';
     color: white;
-    
 }
 
 @keyframes home-text {
@@ -25,19 +24,22 @@
     margin-left: 8vw;
     margin-right: 8vw;
     font-family: "Mario";
-    font-size: 3vw;
+    font-size: 5vh;
+    
 }
 
 #left-lakitu {
     animation-name: home-text; 
     animation-duration: 4s; 
     transform: scaleX(-1);
-    margin-bottom: -3vw;
+    margin-bottom: -3vh;
+    height: 20vmin;
 }
 
 #right-lakitu {
     animation-name: home-text; 
     animation-duration: 4s; 
-    margin-bottom: -3vw;
+    margin-bottom: -3vh;
+    height: 20vmin;
 }
 
