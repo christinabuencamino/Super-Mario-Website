@@ -1,10 +1,10 @@
 
-function Attractions() {
+function Activities() {
     return (
             <div className="content">
-                Attractions
+      Activities
         </div>
     );
   }
   
-  export default Attractions;
+  export default Activities;

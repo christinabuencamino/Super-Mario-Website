@@ -4,10 +4,12 @@ locations:
     bowser castle
     yoshi's island
 food:
-    mushroom
+    huge mushroom
     fire flower
     cape feather
-experiences:
+:
+activities
+
     ride a yoshi
-    mario kart
+    mario kart/ bowser ship
     soar through space

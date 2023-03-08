@@ -13,7 +13,11 @@
     'header'
     'main'
     'footer';
-    margin: 0;
+    overflow:scroll;
+}
+::-webkit-scrollbar {
+  width: 0; 
+  background: transparent; 
 }
 
 header {
@@ -25,7 +29,6 @@ header {
 main {
   grid-area: main;
   text-align: center;
-  overflow: auto;
   justify-self: center;
 }
 
@@ -33,7 +36,6 @@ footer {
   grid-area: footer;
   text-align: center;
 }
-
 
 body {
   margin: 0; /* prevents scrollbars */
@@ -71,5 +73,9 @@ ul {
 #navBar-logo {
   height: 3em;
   margin-top: -20%;
+}
+
+#nav {
+  min-width: fit-content;
 }
 
