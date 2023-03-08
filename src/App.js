@@ -36,7 +36,7 @@ function Layout() {
             <Link className="navBar" to="/attractions">Attractions</Link>
           </li>
           <li>
-          <Link className="navBar" to="/"><img id="navBar-logo" src={require("./components/images/mario.gif")} alt="mario_gif"></img></Link>
+          <Link className="navBar" to="/"><img id="navBar-logo" src={require("./components/images/star.gif")} alt="star"></img></Link>
           </li>
           <li>
             <Link className="navBar" to="/locations">Locations</Link>

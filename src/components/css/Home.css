@@ -1,10 +1,45 @@
 #home {
     grid-area: 'main';
+    color: white;
 }
 
-#pipe {
-    height: 45vh;
-    grid-area: 'footer';
-    margin-bottom: -0.5%;
+@keyframes home-text {
+    from {
+        margin-top: 10vh;
+    }
+    to {
+        
+    }
+}
+
+#message-box {
+    animation-name: home-text; 
+    animation-duration: 4s;
+    background-color: black;
+    width: fit-content;
+    align-self: center;
+    align-content: center;
+    color: white;
+    border: 1em solid black;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    font-family: "Mario";
+    font-size: 5vh;
+    
+}
+
+#left-lakitu {
+    animation-name: home-text; 
+    animation-duration: 4s; 
+    transform: scaleX(-1);
+    margin-bottom: -3vh;
+    height: 20vmin;
+}
+
+#right-lakitu {
+    animation-name: home-text; 
+    animation-duration: 4s; 
+    margin-bottom: -3vh;
+    height: 20vmin;
 }
 

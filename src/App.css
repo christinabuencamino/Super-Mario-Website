@@ -1,7 +1,12 @@
 .App {
   display: grid;
+  margin: 0;
   width: 100vw;
   height: 100vh;
+  background-image: url("/src/components/images/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas: 
@@ -13,18 +18,19 @@
 
 header {
   grid-area: header;
-    background-color: lightblue;
+  overflow-x: hidden;
+  margin-bottom: -4%;
 }
 
 main {
   grid-area: main;
   text-align: center;
   overflow: auto;
+  justify-self: center;
 }
 
 footer {
   grid-area: footer;
-  background-color: lightblue;
   text-align: center;
 }
 
@@ -36,11 +42,9 @@ body {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 15px;
-  font-size: 4vh;
-  margin-left: 50px;
-  margin-right: 50px;
+  font-size: 3vw;
 }
 
 @font-face {
@@ -51,19 +55,21 @@ ul {
 .navBar {
   font-family: 'Mario';
   text-decoration: none;
-  color: black;
+  color: green;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 .navBar:visited {
-  color: black;
+  color: green;
 }
 
 .navBar:hover {
-  color: grey;
+  color: gold;
 }
 
 #navBar-logo {
-  height: 6em;
-  margin-top: -40%;
+  height: 3em;
+  margin-top: -20%;
 }
 
