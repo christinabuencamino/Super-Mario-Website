@@ -26,14 +26,14 @@ export default function App() {
 function Layout() {
   return (
     <>
-      <nav>
+      <nav id="nav">
         <header>
-                  <ul>
+          <ul>
           <li>
             <Link className="navBar" to="/">Home</Link>
           </li>
           <li>
-            <Link className="navBar" to="/attractions">Attractions</Link>
+            <Link className="navBar" to="/attractions">Activities</Link>
           </li>
           <li>
           <Link className="navBar" to="/"><img id="navBar-logo" src={require("./components/images/star.gif")} alt="star"></img></Link>
