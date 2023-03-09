@@ -1,6 +1,4 @@
-
-
-.row {
+.location-row {
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
@@ -10,14 +8,14 @@
     margin-right: 3vw;
 }
 
-.img {
+.location-img {
     min-height: 50vmin;
     object-fit:contain;
     width:fit-content;
     border-radius: 50px;
 }
 
-.text {
+.location-text {
     margin-top: 0;
     margin-bottom: 0;
     width: 50%;

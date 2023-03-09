@@ -1,8 +1,8 @@
 import './App.css';
 
 import Home from './components/Home';
-import Attractions from './components/Attractions';
 import Locations from './components/Locations';
+import Activities from './components/Activities';
 import Food from './components/Food';
 
 import { Routes, Route, Outlet, Link } from "react-router-dom";
@@ -13,7 +13,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="attractions" element={<Attractions />} />
+            <Route path="activities" element={<Activities />} />
             <Route path="locations" element={<Locations />} />
             <Route path="food" element={<Food />} />
             <Route path='*' element={<NoMatch />} />
@@ -33,7 +33,7 @@ function Layout() {
             <Link className="navBar" to="/">Home</Link>
           </li>
           <li>
-            <Link className="navBar" to="/attractions">Activities</Link>
+            <Link className="navBar" to="/activities">Activities</Link>
           </li>
           <li>
           <Link className="navBar" to="/"><img id="navBar-logo" src={require("./components/images/star.gif")} alt="star"></img></Link>
