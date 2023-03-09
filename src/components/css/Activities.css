@@ -1,0 +1,46 @@
+
+
+.row {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    justify-self: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.img {
+    min-height: 50vmin;
+    object-fit:contain;
+    width:fit-content;
+    border-radius: 50px;
+}
+
+.text {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 50%;
+    min-width: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    border: 5px solid white;
+    align-self: center;
+    font-size: 3vh;
+}
+
+
+h1 {
+    justify-content: center;
+    font-family: 'Mario';
+    color: rgb(218, 199, 92);
+    text-align: center;
+    font-size: xxx-large;
+}
+
+h2 {
+    font-family: 'Mario';
+    margin-top: 0;
+    margin-bottom: 0;
+}
