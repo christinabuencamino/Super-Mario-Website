@@ -79,3 +79,30 @@ ul {
   min-width: fit-content;
 }
 
+#no-match {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Mario';
+  font-size: 2.5vh;
+  overflow-x:hidden;
+}
+
+#no-match:any-link {
+  text-decoration: none;
+}
+
+#mario {
+  width: 10vw;
+  border: 3px solid green;
+  border-radius: 50px;
+}
+
+#nomatch-link:visited {
+  color: black;
+}
+
+#nomatch-link:hover {
+  color: gold;
+}
+

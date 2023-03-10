@@ -55,10 +55,14 @@ function Layout() {
 
 function NoMatch() {
   return (
-    <div>
+    <div id="no-match">
+      <br/><br/><br/><br/>
       <h2>Nothing to see here!</h2>
+      <br/><br/>
+      <img id="mario" src={require("./components/images/mario.gif")} alt="mario"></img>
+      <br/>
       <p>
-        <Link to="/">Go to the home page</Link>
+        <Link id="nomatch-link" to="/">Go to the home page</Link>
       </p>
     </div>
   );
