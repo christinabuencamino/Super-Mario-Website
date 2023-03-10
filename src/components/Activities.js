@@ -4,6 +4,10 @@ function Activities() {
     return (
             <div>
                 <br></br><br></br>
+                <div className="food-row">
+                <p className="food-text" id="intro"><br></br><h2>Top 3 Things-To-Do</h2><br/>While there's no way to list every single exicting thing to do in Mushroom Kingdom (since there's simply too many!), here are my top 3 activities you HAVE to try while visiting!<br/><br/></p>               
+            <br/><br/><br/>
+            </div>
             <div className="row">
                 <img className="img" src={require("./images/activities/yoshi.gif")}/>
                 <p className="text"><br></br><h2>Travel On Yoshi</h2><br></br>Travel in style on the best tour guide in all of the kingdoms!<br></br>While out on the town, look out for Yoshi eggs (which could be hiding in blocks) and break one open to make a new friend, travel buddy, and free taxi service.<br></br>Don't forget to feed him some critters for his troubles!<br></br><br></br></p>

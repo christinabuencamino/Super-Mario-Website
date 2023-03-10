@@ -4,6 +4,10 @@ function Locations() {
     return (
             <div>
                 <br></br><br></br>
+                <div className="food-row">
+                <p className="food-text" id="intro"><br></br><h2>Top 3 Best Places To Visit</h2><br/>Want to know where only the locals go?<br/>Here's the must-see locations only locals know about!<br/><br/></p>               
+            <br/><br/><br/>
+            </div>
             <div className="location-row">
                 <img className="location-img" src={require("./images/locations/yoshi_house.webp")}/>
                 <p className="location-text"><br></br><h2>Yoshi's Island</h2><br></br>Yoshi's Island is home to Yoshi's House and is the main home for all Yoshis. You can meet the four legendary colored Yoshi's and the seven Baby Yoshis from each numbered castle. Be warned, you may not catch Green Yoshi as his house usually is out of town with a message block in front of his house that reads “Hello! Sorry I'm not home, but I have gone to rescue my friends, who were captured by Bowser.”<br></br><br></br></p>
